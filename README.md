@@ -10,7 +10,7 @@ PoliCSS is a CSS methodology and a PostCSS based linter designed to enforce it.
 * Reduce Bugs
 * Portable between projects
 
-## Key Principles
+## Key Concepts
 
 * Use semantically named classes/modules
 * Reduce and __Control__ specificity. Keeps as low as possible, without equalling selectors
