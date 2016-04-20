@@ -3,3 +3,7 @@ PoliCSS (pronounced Po-lis) will Enforce a CSS methodology, Suppress individual 
 
 ## What is it?
 PoliCSS is a CSS methodology and a PostCSS based linter designed to enforce it.
+
+## Benefits
+
+## Rules
