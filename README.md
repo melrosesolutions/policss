@@ -1,4 +1,4 @@
-# policss
+# PoliCSS
 PoliCSS (pronounced Po-lis) will Enforce a CSS methodology, Suppress individual coding styles, Control specificity and Oppress team members.
 
 ## What is it?
@@ -47,16 +47,35 @@ to reduce chances of order specificity bugs
 
 ## Rules
 
+* Formatting rules - provided by stylelint
+* Methodology rules - provided by stylelint
+* Methodology rules - custom stylelint plugins
+* Methodology rules - Unenforceable
+
 ### Enforceable Rules
 1. no `div` in selectors - too generic
 1. no `span` in selectors - too generic
 1. no __id__ selectors - too specific
-1. no generic class/module names e.g. `.container`
+1. no generic class/module names e.g. `.container, .row, .column`
 1. no floating status selectors - must be attached to an element
+1. Only allow genuine tag names
+1. don't use tag names for class names
+1. widths should be % or rem - no px units etc
+1. variables used for colors etc
+1. module names must match filename
+1. filenames should be included alphabetically
+1. mixins at top of properties
 
 ### Unenforceable Rules
+May be able to provide warnings
 1. no __presentational__ class/module names e.g. `.red-border`
 1. no __media query__ restricted class/module names e.g. `.col-md-3`
+1. don't use `i` tags for icons
 
 ## FAQs
 1. Empty tags are OK. These should be removed by PostCSS plugins
+
+## Other considerations
+1. MaintainableCSS http://maintainablecss.com/ - very good!
+1. modernizr
+1. css-modules on github
