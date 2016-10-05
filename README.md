@@ -65,6 +65,7 @@ to reduce chances of order specificity bugs
 1. module names must match filename
 1. filenames should be included alphabetically
 1. mixins at top of properties
+1. no block elements inside inline elements
 
 ### Unenforceable Rules
 May be able to provide warnings
